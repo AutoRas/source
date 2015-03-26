@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function checkPasswordMatch() {
+
+var password=
+	alert(password); 
+    
+
+
+</script> */
+  <title>Page Title</title>
+</head>
+
+
+
+
+
+
+<body>
+  <h1>Sign Up for your Membership Today!</h1>
+<Form>
+  <p><table >
+ 				 <tr>
+   					 <td>First name:</td>
+    					<td><input type="text" name="firstname" required></td>
+   					 
+  				</tr>
+ 				 <tr>
+   					 <td>Last name:</td>
+   					 <td><input type="text" name="lastname" required></td>
+				</tr>
+				<tr>
+   					 <td>Email address:</td>
+    					<td><input type="text" name="Email" required></td>
+   					 
+  				</tr>
+				<tr>
+   					 <td>Password:</td>
+    					<td><input type="password" name="password" id="password" required></td>
+				
+   					 
+  				</tr>
+				<tr>
+   					 <td>Re-type Password:</td>
+    					<td><input type="password" name="retype_password" id="retype_password" required /></td> 
+   					 
+  				</tr>
+			</table></p>
+<p><input type="submit" value="Submit" onclick="checkPasswordMatch()" padding left: 10px>
+</form>
+</body>
+
+</html> 
